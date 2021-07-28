@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chrisc-dev/static/css/main.eefb2b3b.chunk.css",
+    "main.js": "/chrisc-dev/static/js/main.0953a6b9.chunk.js",
+    "main.js.map": "/chrisc-dev/static/js/main.0953a6b9.chunk.js.map",
+    "runtime-main.js": "/chrisc-dev/static/js/runtime-main.1d1be71c.js",
+    "runtime-main.js.map": "/chrisc-dev/static/js/runtime-main.1d1be71c.js.map",
+    "static/js/2.415a8778.chunk.js": "/chrisc-dev/static/js/2.415a8778.chunk.js",
+    "static/js/2.415a8778.chunk.js.map": "/chrisc-dev/static/js/2.415a8778.chunk.js.map",
+    "static/js/3.3e0c0173.chunk.js": "/chrisc-dev/static/js/3.3e0c0173.chunk.js",
+    "static/js/3.3e0c0173.chunk.js.map": "/chrisc-dev/static/js/3.3e0c0173.chunk.js.map",
+    "index.html": "/chrisc-dev/index.html",
+    "static/css/main.eefb2b3b.chunk.css.map": "/chrisc-dev/static/css/main.eefb2b3b.chunk.css.map",
+    "static/js/2.415a8778.chunk.js.LICENSE.txt": "/chrisc-dev/static/js/2.415a8778.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d1be71c.js",
+    "static/js/2.415a8778.chunk.js",
+    "static/css/main.eefb2b3b.chunk.css",
+    "static/js/main.0953a6b9.chunk.js"
+  ]
+}
