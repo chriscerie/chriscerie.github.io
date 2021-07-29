@@ -1,0 +1,8 @@
+.horizontal-bar {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    z-index: 50;
+}
