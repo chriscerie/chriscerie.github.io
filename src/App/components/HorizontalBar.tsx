@@ -2,13 +2,13 @@ import React from "react";
 import './HorizontalBar.css';
 
 const defaultProps = {
-  style: {
-    background: "white",
-  }
+  background: "white",
+  direction: "down",
 };
 
 function HorizontalBar(props: typeof defaultProps) {
-  return <div className="horizontal-bar" style={props.style}></div>;
+  const type = props.direction === "down" ? "horizontal-bar-down" : "horizontal-bar-up";
+  return <div className={type} style={{background: props.background}}></div>;
 }
 
 HorizontalBar.defaultProps = defaultProps;
