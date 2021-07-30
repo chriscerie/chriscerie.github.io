@@ -1,8 +1,8 @@
-import React from 'react';
-import './index.css'
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
+import React from "react";
+import "./index.css";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   h1: {
@@ -23,16 +23,27 @@ function About() {
 
   return (
     <div className="about">
-      <Container style={{padding: "50px 100px"}}>
+      <Container style={{ padding: "50px 100px" }}>
         <Typography className={classes.h1} variant="h1">
           About me
         </Typography>
         <Typography className={classes.body1} variant="body1">
-          I am a computer science major at University of California, Santa Barbara. Dedicated to a lifetime of learning, I am always open to tackle new and exciting problems!
+          I am a computer science major at University of California, Santa
+          Barbara. Dedicated to a lifetime of learning, I am always open to
+          tackle new and exciting problems!
+        </Typography>
+        <Typography className={classes.body1} variant="body1">
+          <br/>Languages<br/>C++, TypeScript/JavaScript, Lua, Java
+        </Typography>
+        <Typography className={classes.body1} variant="body1">
+          <br/>Frameworks and Tools<br/>React, Git, Bash/Shell
+        </Typography>
+        <Typography className={classes.body1} variant="body1">
+          <br/>Operating Systems<br/>Linux (Ubuntu), Windows
         </Typography>
       </Container>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
