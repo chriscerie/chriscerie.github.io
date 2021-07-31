@@ -1,6 +1,6 @@
 .home {
   top: 0;
-  height: 700px;
+  height: 650px;
   max-width: 100%;
   margin: 0px;
   font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
@@ -10,7 +10,7 @@
   position: relative;
   height: 200px;
   width: min(450px, 50%);
-  top: 250px;
+  top: 205px;
   padding: 30px clamp(10%, 250px, 20%);
 }
 

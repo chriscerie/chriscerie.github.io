@@ -1,20 +1,35 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './index.css';
 import About from './pages/About';
 import Home from './pages/Home';
 import Employment from './pages/Employment';
-import Header from './Header';
+import Header from './components/Header';
 import HorizontalBar from './components/HorizontalBar';
 
 function App() {
+  const homeRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const employmentRef = useRef<HTMLDivElement>(null);
+
   return (
     <div>
-      <Header />
-      <Home />
+      <Header linkRefs={[
+        {
+          linkName: "Home",
+          linkRef: homeRef,
+        }, {
+          linkName: "About",
+          linkRef: aboutRef,
+        }, {
+          linkName: "Employment",
+          linkRef: employmentRef,
+        }
+      ]}/>
+      <Home homeRef={ homeRef }/>
       <HorizontalBar direction="down" />
-      <About />
+      <About aboutRef={ aboutRef }/>
       <HorizontalBar direction="up" />
-      <Employment />
+      <Employment employmentRef={ employmentRef }/>
     </div>
   );
 }

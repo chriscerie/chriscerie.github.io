@@ -1,9 +1,9 @@
 .horizontal-bar-down {
-    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
 }
 
 .horizontal-bar-up {
-    box-shadow: 0 -3px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 -3px 3px rgba(0,0,0,0.1);
 }
 
 .horizontal-bar-down,

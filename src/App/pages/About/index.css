@@ -1,9 +1,6 @@
 .about {
-  background-color: rgb(247, 245, 241);
+  background-color: rgb(245, 250, 251);
   top: 0;
-  width: 100vw;
-  max-width: 100%;
-  position: relative;
 }
 
 .skills-container {

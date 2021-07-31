@@ -6,23 +6,23 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   h1: {
-    fontSize: "3rem",
+    fontSize: "2.2rem",
     fontFamily: "Segoe UI, Ubuntu, Roboto, Open Sans, Helvetica Neue, sans-serif",
     fontWeight: "lighter",
     marginBottom: 20,
   },
   body1: {
-    fontSize: "1.5rem",
+    fontSize: "1.2rem",
     fontFamily: "Segoe UI, Ubuntu, Roboto, Open Sans, Helvetica Neue, sans-serif",
     fontWeight: "lighter",
   },
 });
 
-function About() {
+function About(props: { aboutRef: React.RefObject<HTMLDivElement> }) {
   const classes = useStyles();
 
   return (
-    <div className="about">
+    <div className="about" ref={ props.aboutRef }>
       <Container style={{ padding: "50px 100px" }}>
         <Typography className={classes.h1} variant="h1">
           About me
