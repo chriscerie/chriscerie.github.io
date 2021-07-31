@@ -3,6 +3,7 @@
   margin-bottom: 0;
   user-select: none;
   color: #4a4a4a;
+  font: "Segoe UI, Ubuntu, Roboto, Open Sans, Helvetica Neue, sans-serif",
 }
 .linkBox:hover {
   text-decoration: underline;
