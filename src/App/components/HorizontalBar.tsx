@@ -1,16 +1,24 @@
 import React from "react";
-import './HorizontalBar.css';
+import "./HorizontalBar.css";
 
-const defaultProps = {
+type propTypes = {
+  background: string;
+  direction: string;
+  children?: React.ReactNode;
+};
+
+function HorizontalBar(props: propTypes) {
+  const type = props.direction === "down" ? "horizontal-bar-down" : "horizontal-bar-up";
+  return (
+    <div className={type} style={{ background: props.background }}>
+      {props.children}
+    </div>
+  );
+}
+
+HorizontalBar.defaultProps = {
   background: "white",
   direction: "down",
 };
-
-function HorizontalBar(props: typeof defaultProps) {
-  const type = props.direction === "down" ? "horizontal-bar-down" : "horizontal-bar-up";
-  return <div className={type} style={{background: props.background}}></div>;
-}
-
-HorizontalBar.defaultProps = defaultProps;
 
 export default HorizontalBar;
