@@ -13,6 +13,7 @@ type propTypes = {
 function Header(props: propTypes) {
   const [isSticky, setIsSticky] = useState(false);
 
+  // Sticky topbar when scrolled down
   useEffect(() => {
     const handleScroll = () => setIsSticky(window.pageYOffset > 50);
     window.addEventListener("scroll", handleScroll);
