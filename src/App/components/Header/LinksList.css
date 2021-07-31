@@ -1,0 +1,26 @@
+.linkBox {
+  margin-top: 0.1em;
+  margin-bottom: 0;
+  user-select: none;
+  color: #4a4a4a;
+}
+.linkBox:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  cursor: pointer;
+}
+.linkBox:active {
+  color: #909090;
+}
+
+.currentBox {
+  margin-top: 0.1em;
+  margin-bottom: 0;
+  user-select: none;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  color: #4ea7f5;
+}
+.currentBox:hover {
+  cursor: pointer;
+}
