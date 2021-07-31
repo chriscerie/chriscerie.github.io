@@ -1,21 +1,11 @@
-.home {
-  top: 0;
-  height: 650px;
-  max-width: 100%;
-  margin: 0px;
+.middle-horizontal-container {
+  position: relative;
+  height: 8rem;
+  margin: 14rem 0;
   font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.middle-horizontal-container {
-  position: relative;
-  height: 200px;
-  width: min(450px, 50%);
-  top: 205px;
-  padding: 30px clamp(10%, 250px, 20%);
-}
-
 .middle-horizontal-container h1 {
-  display: flex;
   font-size: 3em;
   font-weight: lighter;
   color: #222;
@@ -24,7 +14,6 @@
 }
 
 .middle-horizontal-container h2 {
-  display: flex;
   font-size: 3em;
   font-weight: lighter;
   color: #222;

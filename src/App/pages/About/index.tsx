@@ -23,7 +23,7 @@ function About(props: { aboutRef: React.RefObject<HTMLDivElement> }) {
 
   return (
     <div className="about" ref={ props.aboutRef }>
-      <Container maxWidth="lg" style={{ padding: "4rem 0rem" }}>
+      <Container style={{ padding: "4rem clamp(1rem,5%, 7rem)" }}>
         <Typography className={classes.h1} variant="h1">
           About me
         </Typography>

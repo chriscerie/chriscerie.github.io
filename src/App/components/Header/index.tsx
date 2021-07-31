@@ -24,7 +24,7 @@ function Header(props: propTypes) {
   }, []);
 
   return <div className={isSticky ? "header-sticky" : "header"}>
-    <Container style={{ padding: "0px 100px" }}>
+    <Container style={{ padding: "0 clamp(1rem,5%, 7rem)" }}>
       <LinksList linkRefs={ props.linkRefs }/>
     </Container>
   </div>;

@@ -24,7 +24,7 @@ function Employment(props: { employmentRef: React.RefObject<HTMLDivElement> }) {
 
   return (
     <div className="employment" ref={ props.employmentRef }>
-      <Container style={{ padding: "50px 100px" }}>
+      <Container style={{ padding: "4rem clamp(1rem,5%, 7rem)" }}>
         <Typography className={classes.h1} variant="h1">
           Employment
         </Typography>
