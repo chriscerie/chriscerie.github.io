@@ -12,7 +12,7 @@ function App() {
   const employmentRef = useRef<HTMLDivElement>(null);
 
   return (
-    <div>
+    <div className="App">
       <Header linkRefs={[
         {
           linkName: "Home",
