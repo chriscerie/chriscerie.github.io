@@ -1,0 +1,14 @@
+.bottomLink {
+  font-size: 0.8rem;
+  font-weight: 500;
+  user-select: none;
+  color: #FFF;
+  font: "Segoe UI, Ubuntu, Roboto, Open Sans, Helvetica Neue, sans-serif";
+}
+.bottomLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bottomLink:active {
+  color: #909090;
+}

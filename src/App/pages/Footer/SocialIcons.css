@@ -12,7 +12,7 @@
 .social-media-button {
   user-select: none;
   height: 3rem;
-  padding: 0 1rem 1.2rem;
+  padding: 0 1rem;
 }
 .social-media-button:hover {
   cursor: pointer;

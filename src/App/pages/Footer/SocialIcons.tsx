@@ -6,7 +6,7 @@ import Breadcrumbs from "@material-ui/core/Breadcrumbs";
 function SocialIcons() {
   return (
     <Router>
-      <Breadcrumbs aria-label="breadcrumb" separator="">
+      <Breadcrumbs aria-label="breadcrumb" separator="" style={{marginBottom: "1.5rem"}}>
         <Link
           to={{
             pathname: "https://github.com/krysiene",

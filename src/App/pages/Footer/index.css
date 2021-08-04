@@ -2,3 +2,10 @@
   background-color: rgb(86, 85, 148);
   top: 0;
 }
+
+.computer-icon {
+  position: relative;
+  height: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
