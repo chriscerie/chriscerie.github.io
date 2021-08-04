@@ -1,0 +1,20 @@
+.MuiBreadcrumbs-root {
+  display: flex;
+  flex-direction: row;
+}
+
+.MuiBreadcrumbs-ol {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.social-media-button {
+  user-select: none;
+  height: 3rem;
+  padding: 0 1rem 1.2rem;
+}
+.social-media-button:hover {
+  cursor: pointer;
+  filter: brightness(0.7);
+}

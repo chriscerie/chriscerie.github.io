@@ -3,10 +3,10 @@ import './index.css';
 import About from './pages/About';
 import Home from './pages/Home';
 import Employment from './pages/Employment';
-import Projects from './pages/Projects'
+import Projects from './pages/Projects';
+import Footer from './pages/Footer';
 import Header from './components/Header';
 import HorizontalBar from './components/HorizontalBar';
-import circle_arrow from '../images/circle_arrow.png';
 
 function App() {
   const homeRef = useRef<HTMLDivElement>(null);
@@ -34,7 +34,7 @@ function App() {
       <Home homeRef={ homeRef }/>
       <HorizontalBar direction="down">
         <div className="arrow-button">
-          <img src={circle_arrow} alt="Arrow" />
+          <img src="/images/circle-arrow.ico" alt="Arrow" />
         </div>
       </HorizontalBar>
       <About aboutRef={ aboutRef }/>
@@ -42,6 +42,7 @@ function App() {
       <Employment employmentRef={ employmentRef }/>
       <HorizontalBar direction="down" />
       <Projects projectsRef={ projectsRef }/>
+      <Footer />
     </div>
   );
 }
