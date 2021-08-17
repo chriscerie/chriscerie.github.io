@@ -9,7 +9,7 @@ function SocialIcons() {
       <Breadcrumbs aria-label="breadcrumb" separator="" style={{marginBottom: "1.5rem"}}>
         <Link
           to={{
-            pathname: "https://github.com/krysiene",
+            pathname: "https://github.com/chriscerie",
           }}
           target="_blank"
         >
@@ -21,7 +21,7 @@ function SocialIcons() {
         </Link>
         <Link
           to={{
-            pathname: "https://www.linkedin.com/in/christopherchangx1/",
+            pathname: "https://www.linkedin.com/in/chriscdev/",
           }}
           target="_blank"
         >

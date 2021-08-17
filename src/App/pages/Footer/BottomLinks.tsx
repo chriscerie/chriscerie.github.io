@@ -9,7 +9,7 @@ function BottomLinks() {
       <Breadcrumbs aria-label="breadcrumb" separator="">
         <Link
           to={{
-            pathname: "https://github.com/krysiene/krysiene.github.io",
+            pathname: "https://github.com/chriscerie/chriscerie.github.io",
           }}
           target="_blank"
           style={{ textDecoration: "none" }}
