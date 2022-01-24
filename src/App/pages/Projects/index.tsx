@@ -29,24 +29,12 @@ function Projects(props: { projectsRef: React.RefObject<HTMLDivElement> }) {
           Projects
         </Typography>
         <ProjectEntry
-          projectName="3D Open World Multiplayer Game"
+          projectName="Crowdsourced Indoor Map Platform"
           description={[
-            "Integrated declarative UI library Roact (based on React) and state management library Rodux (based on Redux) to provide a robust UI/UX experience.",
-            "Implemented unit testing strategy and automated behavioral-driven-development style unit tests with TestEZ.",
-          ]}
-        />
-        <ProjectEntry
-          projectName="Asset-Search Plugin"
-          description={[
-            "Designed open-sourced plugin to parse game contents in search for specific asset IDs on the Roblox platform, enabling memory optimizations for inefficient assets.",
-            "Achieved over 1000 sales, contributing to significant productivity gains and memory optimization.",
-          ]}
-        />
-        <ProjectEntry
-          projectName="Convolutional Neural Network"
-          description={[
-            "Trained 400k images from Google’s Quick Draw image database using Python to predict whether a 28x28 sketch is an airplane, car, or clock.",
-            "Configured model to 5 epochs with batch sizes of 50, resulting in a validation accuracy of 98.7%.",
+            "Developed NodeJS indoor mapping platform leveraging MapboxGL to crowdsource directions to points of interests, featuring comments, image upload, Google OAuth, moderator panels, and data submission.",
+            "Designed mobile-first responsive components and web pages using React and Redux and created secure REST APIs using ExpressJS and MongoDB (TypeScript).",
+            "Implemented agile unit/snapshot tests with Jest and GitHub Actions CI/CD workflow for the entire application, resulting in 50% line coverage.",
+            "Served as main point of contact for code reviews and rigorously reviewed pull requests from a Scrum team of 6, ensuring consistent code quality.",
           ]}
         />
       </Container>

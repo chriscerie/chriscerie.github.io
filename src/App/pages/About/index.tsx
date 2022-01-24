@@ -33,13 +33,13 @@ function About(props: { aboutRef: React.RefObject<HTMLDivElement> }) {
           tackle new and exciting problems!
         </Typography>
         <Typography className={classes.body1} variant="body1">
-          <br/>Languages<br/>C++, TypeScript/JavaScript, Lua, Java
+          <br/>Languages<br/>C++, TypeScript, JavaScript, Java, Lua
         </Typography>
         <Typography className={classes.body1} variant="body1">
-          <br/>Frameworks and Tools<br/>React, Git, Bash/Shell
+          <br/>Front-End:<br/>React, Redux
         </Typography>
         <Typography className={classes.body1} variant="body1">
-          <br/>Operating Systems<br/>Linux (Ubuntu), Windows
+          <br/>Back-End<br/>Node.js, Express.js, MongoDB
         </Typography>
       </Container>
     </div>
